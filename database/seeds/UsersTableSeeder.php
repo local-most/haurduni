@@ -37,15 +37,15 @@ class UsersTableSeeder extends Seeder
                 'alamat' => null,
             ],
             [
-                'nama' => 'Yandi',
-                'username' => 'yandi',
+                'nama' => 'Dzul',
+                'username' => '1234',
                 'password' => bcrypt('1234'),
                 'role' => '2',
                 'wilayah_id' => 3,
                 'foto' => NULL,
                 'nohp' => NULL,
                 'ktp' => NULL,
-                'alamat' => 'Desa HaurMuncang, Rt10/Rw05 Kec. Cijojo Kab. Kuningan',
+                'alamat' => 'Desa Cigadung',
                 'validate' => '1'
             ]
         ]);
