@@ -9,7 +9,7 @@
 			<h5><strong style="color: rgb(255, 94, 0);">Haurduni Motor</strong> Admin Management</h5>
 		</div>
 	</div>
-	<div class="col-sm-12 mb-2">
+	{{-- <div class="col-sm-12 mb-2">
 		<div class="row">
 			<div class="col-sm-4">
 				<select class="custom-select custom-select-dm" name="bulan" id="bulan">
@@ -57,14 +57,14 @@
 				<canvas id="transaksiProduk" height="100px"></canvas>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 </div>
 @endsection
 
 
 @push('js')
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/chartPenjualan.js"></script>
+{{-- <script src="https://cdn.jsdelivr.net/npm/chartPenjualan.js"></script>
 
 <script type="text/javascript">
 
@@ -213,7 +213,7 @@
 		return bulan;
 	}
 
-</script>
+</script> --}}
 @endpush
 
 
