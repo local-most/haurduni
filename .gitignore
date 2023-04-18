@@ -1,0 +1,18 @@
+/node_modules
+/public/hot
+/public/images/about-us/*
+/public/images/banners/*
+/public/images/testimonials/*
+/public/images/what-we-doing/*
+/public/images/portfolios/*
+# /public/images/products/*
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
