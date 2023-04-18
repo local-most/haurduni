@@ -9,55 +9,7 @@
 			<h5><strong style="color: rgb(255, 94, 0);">Haurduni Motor</strong> Admin Management</h5>
 		</div>
 	</div>
-	{{-- <div class="col-sm-12 mb-2">
-		<div class="row">
-			<div class="col-sm-4">
-				<select class="custom-select custom-select-dm" name="bulan" id="bulan">
-					<option @if(date('m')=='01') selected @endif value="01">Januari</option>
-					<option @if(date('m')=='02') selected @endif value="02">Februari</option>
-					<option @if(date('m')=='03') selected @endif value="03">Maret</option>
-					<option @if(date('m')=='04') selected @endif value="04">April</option>
-					<option @if(date('m')=='05') selected @endif value="05">Mei</option>
-					<option @if(date('m')=='06') selected @endif value="06">Juni</option>
-					<option @if(date('m')=='07') selected @endif value="07">Juli</option>
-					<option @if(date('m')=='08') selected @endif value="08">Agustus</option>
-					<option @if(date('m')=='09') selected @endif value="09">September</option>
-					<option @if(date('m')=='10') selected @endif value="10">Oktober</option>
-					<option @if(date('m')=='11') selected @endif value="11">November</option>
-					<option @if(date('m')=='12') selected @endif value="12">Desember</option>
-				</select>
-			</div>
-			<div class="col-sm-4">
-				<select name='tahun' class='custom-select custom-select-dm' name='tahun' id="tahun">
-					<?php for ($i=date('Y'); $i>=2020; $i--){ ?>
-						<option value="{{$i}}">{{$i}}</option>
-					<?php } ?>
-				</select>
-			</div>
-		</div>
-	</div>
-	<div class="col-sm-6">
-		<div class="card">
-			<div class="card-body">
-				<canvas id="transaksiPenjualan" height="100px"></canvas>
-			</div>
-		</div>
-	</div>
-	<div class="col-sm-6">
-		<div class="card">
-			<div class="card-body">
-				<canvas id="transaksiPelanggan" height="100px"></canvas>
-			</div>
-		</div>
-	</div>
-	<div class="col-sm-12">
-		<div class="card">
-			<div class="card-body">
-				<label for="">Transaksi Produk</label>
-				<canvas id="transaksiProduk" height="100px"></canvas>
-			</div>
-		</div>
-	</div> --}}
+
 </div>
 @endsection
 
