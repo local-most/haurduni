@@ -1,6 +1,6 @@
 <aside class="main-sidebar sidebar-dark-orange elevation-4">
     <a href="{{ route('dashboard') }}" class="brand-link navbar-orange">
-        <strong>TZM</strong>
+        <strong>HDM</strong>
         <span class="brand-text font-weight-light text-light">Administrator</span>
     </a>
 
