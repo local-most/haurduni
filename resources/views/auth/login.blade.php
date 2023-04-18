@@ -5,11 +5,11 @@
     <div class="card card-outline card-blue">
         <div class="card-body login-card-body">
             <div class="login-logo">
-                <img src="{{ asset('images/logo.png') }}" alt="Logo TZM Tanjung Zahra Motor" width="100px">
+                <img src="{{ asset('images/logo.png') }}" alt="Logo Haurduni Motor" width="100px">
             </div>
-            <p class="login-box-msg">TZM Tanjung Zahra Motor | Administrator</p>
+            <p class="login-box-msg">Haurduni Motor | Administrator</p>
             @if( session('msg') )
-            <?php 
+            <?php
             $msg = session('msg');
             ?>
             <div class="alert alert-{{ $msg['type'] }} alert-remove">
