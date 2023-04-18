@@ -13,7 +13,7 @@
     <div class="container">
         <div class="heading_container heading_center">
             <h2>
-                TZM Tanjung Zahra Motor
+                Haurduni Motor
             </h2>
         </div>
         <div class="row">
@@ -24,7 +24,7 @@
                     <div class="card-body">
                         <h6 class="pb-2"><b>Masuk</b></h6>
                         @if( session('msg') )
-                        <?php 
+                        <?php
                         $msg = session('msg');
                         ?>
                         <div class="row">

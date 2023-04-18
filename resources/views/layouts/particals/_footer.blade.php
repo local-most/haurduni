@@ -53,7 +53,7 @@
             <div class="col-md-6 col-lg-4 footer-col text-center">
                 <div class="footer_contact">
                     <img src="{{ asset('icon-belanja.png') }}" width="300px"> <br>
-                    <small>&copy; <span id="displayYear"></span> TZM Tanjung Zahra Motor</small>
+                    <small>&copy; <span id="displayYear"></span> Haurduni Motor</small>
                 </div>
             </div>
         </div>

@@ -13,7 +13,7 @@
     <meta name="author" content="" />
     <link rel="shortcut icon" href="{{ asset('logo.png') }}" type="image/x-icon">
     <link rel="icon" href="{{ asset('logo.png') }}" type="image/x-icon">
-    <title>{{ 'TZM Tanjung Zahra Motor' }}</title>
+    <title>{{ 'Haurduni Motor' }}</title>
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="{{ asset('timups/css/bootstrap.css') }}" />
     <link rel="stylesheet" href="{{ asset('plugins/sweetalert2/sweetalert2.min.css') }}">
@@ -49,7 +49,7 @@
                 <nav class="navbar navbar-expand-lg custom_nav-container ">
                     <a class="navbar-brand" href="index.html">
                         <span>
-                            {{ 'TZM Tanjung Zahra Motor' }}
+                            {{ 'Haurduni Motor' }}
                         </span>
                     </a>
 

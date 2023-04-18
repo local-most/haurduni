@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>@yield('title') | TZM Tanjung Zahra Motor</title>
+    <title>@yield('title') | Haurduni Motor</title>
     <link rel="shortcut icon" href="{{ asset('logo.png') }}" type="image/x-icon">
     <link rel="icon" href="{{ asset('logo.png') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ asset('plugins/fontawesome-free/css/all.min.css') }}">
@@ -62,7 +62,7 @@
         </div>
 
 
-        <footer class="main-footer"><div class="float-right d-none d-sm-inline-block"><b>&copy; TZM Tanjung Zahra Motor</b></div></footer>
+        <footer class="main-footer"><div class="float-right d-none d-sm-inline-block"><b>&copy; Haurduni Motor</b></div></footer>
     </div>
 
     <div id="loader">
