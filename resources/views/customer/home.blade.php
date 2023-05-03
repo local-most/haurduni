@@ -87,9 +87,9 @@
 <!-- end shop section -->
 
 <!-- about section -->
-<section class="about_section layout_padding">
+<section class="about_section">
     <div class="container  ">
-        <div class="row">
+        <div class="row" style="padding: 50px 0">
             <div class="col-md-6 col-lg-5 ">
                 <div class="img-box">
                     @if($about)
