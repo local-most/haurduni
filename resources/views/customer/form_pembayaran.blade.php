@@ -23,7 +23,7 @@
                         <br>
                         <img class="mt-2 mb-2" src="{{ asset('bca.svg') }}" width="100px">
                         <br>
-                        <b>{{ '2996738399' }}</b> a.n (PT. Harapan Mulya)
+                        <b>{{ '2297880034' }}</b> a.n (Haurduni Motor)
                     </div>
                     <br>
                     <div>Jumlah yang harus dibayar</div>

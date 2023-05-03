@@ -38,13 +38,13 @@
                         <a href="#">
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             <span>
-                                Call +62 82129960156
+                                Call +62 82126651188
                             </span>
                         </a>
                         <a href="#">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                             <span>
-                                tzm.tanjungzahramotor@gmail.com
+                                haurdunimotor@gmail.com
                             </span>
                         </a>
                     </div>

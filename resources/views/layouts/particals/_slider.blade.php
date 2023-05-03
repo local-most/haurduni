@@ -26,10 +26,15 @@
                                         Cari Speapart Original ?
                                     </h1>
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae nam tenetur quibusdam ipsa animi commodi in cupiditate excepturi repellendus magni aperiam ut et sunt, aut, pariatur sit, error unde dicta.
+                                        @if($about)
+                                        {!! $about->value->description !!}
+                                        @else
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam hic incidunt exercitationem, odit non dolorum repellat
+                                        expedita atque tempore vero recusandae.
+                                        @endif
                                     </p>
                                     <div class="btn-box">
-                                        <a href="" class="btn1">
+                                        <a href="https://wa.wizard.id/06e7e6" target="_blank" class="btn1">
                                             Hubungi Kami
                                         </a>
                                     </div>
@@ -55,7 +60,7 @@
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime id aspernatur repudiandae aut cupiditate error, earum corrupti illum omnis tenetur ipsa nemo, dolorem delectus consequatur nam tempora voluptate nisi suscipit!
                                     </p>
                                     <div class="btn-box">
-                                        <a href="" class="btn1">
+                                        <a href="https://wa.wizard.id/06e7e6" target="_blank" class="btn1">
                                             Pesan Sekarang
                                         </a>
                                     </div>
@@ -81,7 +86,7 @@
                                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatum consequatur id voluptatibus at quis, natus, labore praesentium vel repudiandae incidunt minima quam atque quaerat eius possimus! Ab, excepturi incidunt?
                                     </p>
                                     <div class="btn-box">
-                                        <a href="" class="btn1">
+                                        <a href="https://wa.wizard.id/06e7e6" target="_blank" class="btn1">
                                             WhatsApp
                                         </a>
                                     </div>
