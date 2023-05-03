@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
             <a class="navbar-brand" href="{{ route('home') }}">
                 <span style="font-size: 20px;">
-                    <img src="{{ asset('hm.png') }}" width="250px">
+                    <img src="{{ asset('images/logo.png') }}" width="250px">
                 </span>
             </a>
             </div>
