@@ -38,7 +38,7 @@ class UsersTableSeeder extends Seeder
             ],
             [
                 'nama' => 'Dzul',
-                'username' => '1234',
+                'username' => 'dzul',
                 'password' => bcrypt('1234'),
                 'role' => '2',
                 'wilayah_id' => 3,
