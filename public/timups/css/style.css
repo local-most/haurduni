@@ -93,7 +93,6 @@ a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-left: 45px;
 }
 
 .hero_area .hero_social {
@@ -291,8 +290,12 @@ a:focus {
           align-items: center;
   padding: 45px 0;
   background-color: #f0d43a;
-  border-radius: 0 0 0 250px;
-  background: #3b4a6b;
+  border-radius: 0 0 75px 75px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.25), -2px -2px 3px 0 rgba(0, 0, 0, 0.05);
+  background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .slider_section .row {
@@ -332,12 +335,13 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 12px 15px;
-  background-color: #e6c511;
+ background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #ffffff;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #e6c511;
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
@@ -373,7 +377,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 23px;
   height: 23px;
-  background-color: #f0d43a;
+  background-color: #f12711;
 }
 
 .shop_section .heading_container {
@@ -387,6 +391,7 @@ a:focus {
   margin-top: 25px;
   border-radius: 15px;
   overflow: hidden;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.25), -2px -2px 3px 0 rgba(0, 0, 0, 0.05);
 }
 
 .shop_section .box a {
@@ -431,7 +436,10 @@ a:focus {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #f0d43a;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.25), -2px -2px 3px 0 rgba(0, 0, 0, 0.05);
+  background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -458,12 +466,13 @@ a:focus {
 .shop_section .btn-box a {
   display: inline-block;
   padding: 10px 50px;
-  background-color: #f0d43a;
+  background: #f12711;
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);
   color: #ffffff;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #f0d43a;
 }
 
 .shop_section .btn-box a:hover {
@@ -473,7 +482,10 @@ a:focus {
 }
 
 .about_section {
-  background-color: #3b4a6b;
+  background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: #ffffff;
 }
 
@@ -552,10 +564,15 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 15px;
+  border-radius: 10px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   margin: 15px 0;
+  padding: 10px;
+  background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #ffffff;
 }
 
 .feature_section .box .img-box img {
@@ -578,7 +595,9 @@ a:focus {
 }
 
 .feature_section .box:hover {
-  background-color: #3b4a6b;
+  background: #F3904F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #ffffff;
 }
 
@@ -764,7 +783,10 @@ a:focus {
 }
 
 .footer_section {
-  background-color: #3b4a6b;
+  background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: #ffffff;
   padding-top: 60px;
 }
