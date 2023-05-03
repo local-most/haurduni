@@ -13,27 +13,32 @@ class KategoriSeeder extends Seeder
     {
     	DB::table('kategori')->insert([
     		[
-    			'nama' => 'Kategori Ban',
+    			'nama' => 'Roofrack',
                 'is_color' => false,
                 'harga' => 0,
     		],
     		[
-    			'nama' => 'Kategori Oli',
+    			'nama' => 'Oli Mobil',
                 'is_color' => false,
                 'harga' => 0,
     		],
             [
-                'nama' => 'Kategori Aki',
+                'nama' => 'Towing Bar',
                 'is_color' => false,
                 'harga' => 0,
             ],
             [
-                'nama' => 'Kategori Kampas Rem',
+                'nama' => 'Garnish',
                 'is_color' => false,
                 'harga' => 0,
             ],
             [
-                'nama' => 'Kategori Body Motor',
+                'nama' => 'Bumper (Tanduk)',
+                'is_color' => false,
+                'harga' => 0,
+            ],
+            [
+                'nama' => 'Aksesoris',
                 'is_color' => false,
                 'harga' => 0,
             ],

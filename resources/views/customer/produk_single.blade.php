@@ -33,7 +33,7 @@
                             <img src="{{ asset($produk->foto) }}" alt="">
                         </div>
                         <div class="text-center">
-                            <small><i>Produk By. Toko Harapan Mulya Kuningan</i></small>
+                            <small><i>*Jika produk tidak tersedia di etalase, dapat menghubungi untuk Pre Order</i></small>
                         </div>
                     </a>
                 </div>
@@ -186,9 +186,9 @@
     $(document).ready(function(){
         @foreach($produk->Testimoni as $row)
         var $inp = $('#rating-input-{{ $row->id }}');
-        
+
         //$inp.attr('value','4');
-            
+
         $inp.rating({
                 min: 0,
                 max: 5,
@@ -211,7 +211,7 @@
             count-=1;
             jumlah.value = count;
             getHargaTotal(count);
-        }  
+        }
     }
 
     function getHargaTotal(jumlah) {

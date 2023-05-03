@@ -13,10 +13,13 @@ class SatuanTableSeeder extends Seeder
     {
         DB::table('satuan')->insert([
             [
-                'nama' => 'Kilogram'
+                'nama' => 'Liter'
             ],
             [
-                'nama' => 'Gram'
+                'nama' => 'Set'
+            ],
+            [
+                'nama' => 'Pcs'
             ]
         ]);
     }
