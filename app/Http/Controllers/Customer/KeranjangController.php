@@ -87,13 +87,13 @@ class KeranjangController extends Controller
 					$jumlah[] = $row->jumlah*$row->Produk->harga;
 				}
 				$jumlah_barang[] = $row->jumlah;
-				
+
 				if ($row->Produk->stok == 0 || $row->jumlah > $row->Produk->stok) {
 					$produk_stok_kosong [] = $row->Produk->id;
 				}
 
 				$sub_ongkir[] = $row->Produk->berat*$row->jumlah;
-				
+
 				$keranjang_id[] = $row->id;
 			}
 
@@ -116,7 +116,7 @@ class KeranjangController extends Controller
 		$total = array_sum($jumlah);
 		$minimal_belanja = 5000000;
 
-		if ($total > 200000 && $total <= $minimal_belanja) {
+		if ($total > 500000 && $total <= $minimal_belanja) {
 			$total_ongkir = 0;
 			$isOngkir = false;
 			$ongkirnya = 0;
@@ -124,8 +124,8 @@ class KeranjangController extends Controller
 		else if($total >= $minimal_belanja)
 		{
 			$total_ongkir = $total_ongkir;
-			// $isOngkir = false;	
-			$isOngkir = true;	
+			// $isOngkir = false;
+			$isOngkir = true;
 			$ongkirnya = $total_ongkir;
 			// $ongkirnya = 0;
 		}
@@ -160,7 +160,7 @@ class KeranjangController extends Controller
 		{
 			$keranjang = Keranjang::where('id', $request->keranjang_id)->first();
 			$keranjang->status = $keranjang->status == 0 ? 1 : 0;
-			$keranjang->update();	
+			$keranjang->update();
 		}
 		else
 		{
@@ -216,7 +216,7 @@ class KeranjangController extends Controller
 
 			return redirect()->route('keranjang')
 							->with('msg', [
-								'type' => 'success', 
+								'type' => 'success',
 								'text' => 'Produk berhasil di tambahkan ke dalam keranjang'
 							]);
 		}

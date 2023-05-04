@@ -99,7 +99,7 @@
                 <div class="card">
                     <div class="card-body">
                         @if( session('msg') )
-                        <?php 
+                        <?php
                         $msg = session('msg');
                         ?>
                         <div class="row">
@@ -252,7 +252,7 @@
                             <br>
                             <div class="form-group mt-3">
                                 <div class="alert btn-info" style="font-size: 11px;">
-                                    *gratis ongkir dengan minimal pembelian > Rp. 200.000,-
+                                    *gratis ongkir dengan minimal pembelian > Rp. 500.000,-
                                 </div>
                             </div>
                             <div class="form-group mt-3">
@@ -345,7 +345,7 @@
                 $('#ongkir').hide();
             }else{
                 $('#btn_total_beli').show();
-                
+
                 if (res.total_harga >= 150000 && res.isOngkir == true)
                 {
                     $('#ongkir').show();

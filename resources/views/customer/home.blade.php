@@ -128,7 +128,7 @@
                 Pesan dari Sekarang
             </h2>
             <p>
-                Belanja lebih dari Rp150.000, barang kami antar dengan ongkos kirim terjangkau
+                Belanja Hemat Gratis Ongkir minimal pemebelanjaan Rp.500.000,-
             </p>
         </div>
         <div class="row">
