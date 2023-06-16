@@ -111,6 +111,6 @@
 			config
 		);
 	}
-  
+
 </script>
 @endpush

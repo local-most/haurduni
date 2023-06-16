@@ -25,8 +25,8 @@ class UsersTableSeeder extends Seeder
                 'alamat' => null,
             ],
             [
-                'nama' => 'Pimpinan',
-                'username' => 'pimpinan',
+                'nama' => 'Owner Haurduni Motor',
+                'username' => 'owner',
                 'password' => bcrypt('123'),
                 'role' => '3',
                 'validate' => '1',

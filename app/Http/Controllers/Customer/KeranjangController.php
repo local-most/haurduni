@@ -116,7 +116,7 @@ class KeranjangController extends Controller
 		$total = array_sum($jumlah);
 		$minimal_belanja = 5000000;
 
-		if ($total > 500000 && $total <= $minimal_belanja) {
+		if ($total >= 500000 && $total <= $minimal_belanja) {
 			$total_ongkir = 0;
 			$isOngkir = false;
 			$ongkirnya = 0;

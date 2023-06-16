@@ -29,7 +29,7 @@ class LaporanController extends Controller
     	if ($bulan && $tahun) {
     		$order = Order::where('status', statusOrder('selesai-order'))
     						->where('tanggal')->get();
-    		
+
     	}
 
     	$order = Order::where('status', statusOrder('selesai-order'))->get();
@@ -85,7 +85,7 @@ class LaporanController extends Controller
 
         $sheet->setCellValue('A2', 'REKAP');
         $sheet->setCellValue('A3', 'TRANSAKSI');
-        $sheet->setCellValue('A4', 'TOKO HARAPAN MULYA');
+        $sheet->setCellValue('A4', 'HAURDUNI MOTOR');
         $sheet->setCellValue('A5', 'PERIODE '.$filter_tanggal);
 
         $sheet->getStyle('A7:E7')->getFill()->setFillType(\PhpOffice\PhpSpreadsheet\Style\Fill::FILL_SOLID)->getStartColor()->setARGB('cacaca');
@@ -117,7 +117,7 @@ class LaporanController extends Controller
             $sheet->setCellValue('D'.$i, array_sum($jumlah_detail));
 
             $jumlah_produk[] = array_sum($jumlah_detail);
-            
+
             $jumlah_total[] = $row->total_tagihan;
 
             $i++;
@@ -145,10 +145,10 @@ class LaporanController extends Controller
         $sheet->setCellValue('D'.$i, 'Kuningan, '.tanggalIndo(now()));
         $i +=1;
         $sheet->mergeCells("D$i:E$i");
-        $sheet->setCellValue('D'.$i, 'Pimpinan Toko Harapan Mulya');
+        $sheet->setCellValue('D'.$i, 'Pimpinan Haurduni Motor');
         $i +=3;
         $sheet->mergeCells("D$i:E$i");
-        $sheet->setCellValue('D'.$i, 'Engkos Kosasih');
+        $sheet->setCellValue('D'.$i, 'Iwan Juliano');
 
         $namafile = 'laporan-transaksi-'.bulanIndo($request->bulan).'-'.$request->tahun.'.xlsx';
         $response = response()->streamDownload(function() use ($spreadsheet) {
@@ -215,7 +215,7 @@ class LaporanController extends Controller
         $duplicate = null;
 
         foreach($pelanggan as $row) {
-            $names[] = $row->nama; 
+            $names[] = $row->nama;
             $total = 0;
             foreach($row->Orders as $order) {
                 $total += $order->total_tagihan;

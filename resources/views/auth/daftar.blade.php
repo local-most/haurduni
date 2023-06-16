@@ -128,7 +128,7 @@
     <div class="container">
         <div class="heading_container heading_center">
             <h2>
-                Harapan Mulya
+                Haurduni Motor
             </h2>
         </div>
         <div class="row">
@@ -139,7 +139,7 @@
                     <div class="card-body">
                         <h6 class="pb-2"><b>Daftar</b></h6>
                         @if( session('msg') )
-                        <?php 
+                        <?php
                         $msg = session('msg');
                         ?>
                         <div class="row">
@@ -154,12 +154,12 @@
                             @csrf
                             <div class="form-group">
                                 <label><small>Nama Lengkap</small></label>
-                                <input type="text" name="nama_lengkap" id="nama" class="form-control" required placeholder="Contoh : Yandi" onkeypress="return event.charCode < 48 || event.charCode > 57" oninput="cekNamaLengkap()">
+                                <input type="text" name="nama_lengkap" id="nama" class="form-control" required placeholder="Nama Lengkap" onkeypress="return event.charCode < 48 || event.charCode > 57" oninput="cekNamaLengkap()">
                                 <small style="color: red; font-size: 0.7rem;" id="koreksi-nama"></small>
                             </div>
                             <div class="form-group">
                                 <label><small>Email</small></label>
-                                <input type="email" name="email" id="email" class="form-control" required placeholder="Contoh : yandi@gmail.com" oninput="cekEmail()">
+                                <input type="email" name="email" id="email" class="form-control" required placeholder="Contoh : habib@gmail.com" oninput="cekEmail()">
                                 <small style="color: red; font-size: 0.7rem;" id="koreksi-email"></small>
                             </div>
                             <div class="form-group">
@@ -169,7 +169,7 @@
                             </div>
                             <div class="form-group">
                                 <label><small>Username</small></label>
-                                <input type="text" name="username" id="username" class="form-control" placeholder="Contoh : yandi" required oninput="cekUsername()">
+                                <input type="text" name="username" id="username" class="form-control" placeholder="Contoh : habib" required oninput="cekUsername()">
                                 <small style="color: red; font-size: 0.7rem;" id="koreksi-username"></small>
                             </div>
                             <div class="form-group">

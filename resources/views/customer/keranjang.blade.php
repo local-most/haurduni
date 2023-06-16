@@ -252,7 +252,7 @@
                             <br>
                             <div class="form-group mt-3">
                                 <div class="alert btn-info" style="font-size: 11px;">
-                                    *gratis ongkir dengan minimal pembelian > Rp. 500.000,-
+                                    *gratis ongkir dengan minimal pembelian >= Rp. 500.000,-
                                 </div>
                             </div>
                             <div class="form-group mt-3">
