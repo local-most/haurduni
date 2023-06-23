@@ -5,7 +5,7 @@
 /public/images/testimonials/*
 /public/images/what-we-doing/*
 /public/images/portfolios/*
-# /public/images/products/*
+/public/images/products/*
 /public/storage
 /storage/*.key
 /vendor

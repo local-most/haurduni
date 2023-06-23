@@ -81,17 +81,17 @@ class ProdukController extends Controller
 
 		$user = User::where('role', role('pelanggan'))->get();
 
-		if(count($user) > 0){
-			foreach($user as $row){
-				if($row->email){
-					Mail::to($row->email)
-					->send(new ProductNew(
-						'123456',
-						$produk
-					));
-				}
-			}
-		}
+		// if(count($user) > 0){
+		// 	foreach($user as $row){
+		// 		if($row->email){
+		// 			Mail::to($row->email)
+		// 			->send(new ProductNew(
+		// 				'123456',
+		// 				$produk
+		// 			));
+		// 		}
+		// 	}
+		// }
 
 		if ($produk) {
 			return redirect()->route('admin.produk')->with('msg',['type'=>'success','text'=> 'Produk Berhasil disimpan']);
@@ -104,7 +104,7 @@ class ProdukController extends Controller
 		$kategori = Kategori::all();
 		$warna = Warna::all();
 		$satuan = Satuan::all();
-		return view('admin.produk.edit', compact('kategori', 'produk', 'warna', 'satuan'));	
+		return view('admin.produk.edit', compact('kategori', 'produk', 'warna', 'satuan'));
 	}
 
 	public function update(Request $request, $id)
@@ -114,7 +114,7 @@ class ProdukController extends Controller
 		$harga = preg_replace('/[Rp.]/', '', $request->harga);
 
 		$path_image5 = $produk->foto;
-		
+
 		if ($request->hasFile('foto1')) {
 			$image      = $request->file('foto1');
 			$fileName   = 'foto1-'.uniqid().'.' . $image->getClientOriginalExtension();
